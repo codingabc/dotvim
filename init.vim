@@ -11,6 +11,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab "tab键扩展为空格
+set smarttab
 set nobackup "不自动备份
 set noundofile
 set incsearch "在输出时搜索
@@ -24,6 +25,7 @@ set go=m
 "set nowarp "不自动换行
 set list
 set listchars=tab:\|-
+set cursorline "高亮当前行
 
 set fileencoding=utf-8
 set encoding=utf-8

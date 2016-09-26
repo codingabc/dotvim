@@ -32,7 +32,9 @@ set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,gb18030,cp936,big5
 language message zh_CN.UTF-8
 
-colorscheme monokai
+"colorscheme monokai
+let g:molokai_original=1
+colorscheme molokai
 
 syntax on
 filetype plugin indent on
@@ -69,3 +71,11 @@ execute "autocmd! BufWritePost init.vim source " . g:my_init_script_path
 " 菜单栏乱码
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
+
+" neocomplete
+" Disable AutoComplPop.
+let g:acp_enableAtStartup = 0
+" Use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" Use smartcase.
+let g:neocomplete#enable_smart_case = 1

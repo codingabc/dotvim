@@ -23,8 +23,8 @@ set ruler
 set showcmd
 set go=m
 "set nowarp "不自动换行
-set list
-set listchars=tab:\|-
+"set list
+"set listchars=tab:\|-
 set cursorline "高亮当前行
 
 set fileencoding=utf-8
